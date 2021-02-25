@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #1f222c;
+  width: 40%;
+  height: calc((100vw * 40) / 100);
+  padding: 30px; }
+  .container .card {
+    margin: 1%;
+    width: 46.127%;
+    height: 46.127%;
+    background-color: #474c5a;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #85e6fa;
+    position: relative; }
+    .container .card .icon {
+      margin-bottom: 10px;
+      width: 30%;
+      height: 30%; }
+    .container .card .text {
+      font-size: 1.5vw; }
+    .container .card .check {
+      position: absolute;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      top: 7%;
+      width: 15%;
+      height: 15%;
+      border-radius: 50%;
+      margin-right: 15px; }
+      @media (max-width: 576px) {
+        .container .card .check {
+          margin-right: 4px; } }
+      .container .card .check img {
+        height: 100%;
+        width: 100%; }
