@@ -53,13 +53,13 @@ body {
             flex-direction: column;
     color: #85e6fa;
     position: relative; }
-    .container .card .icon {
+    .container .card-icon {
       margin-bottom: 10px;
       width: 30%;
       height: 30%; }
-    .container .card .text {
+    .container .card-text {
       font-size: 1.5vw; }
-    .container .card .check {
+    .container .card-check {
       position: absolute;
       -ms-flex-item-align: end;
           align-self: flex-end;
@@ -78,8 +78,8 @@ body {
       border-radius: 50%;
       margin-right: 15px; }
       @media (max-width: 576px) {
-        .container .card .check {
+        .container .card-check {
           margin-right: 4px; } }
-      .container .card .check img {
+      .container .card-check img {
         height: 100%;
         width: 100%; }

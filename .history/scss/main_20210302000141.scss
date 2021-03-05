@@ -15,8 +15,8 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #1f222c;
-  width: 40%;
-  height: calc((100vw * 40) / 100);
+  position: relative;
+  height: 0;
   padding: 30px;
 
   .card {

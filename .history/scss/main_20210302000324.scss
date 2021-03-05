@@ -31,15 +31,15 @@ body {
     flex-direction: column;
     color: #85e6fa;
     position: relative;
-    &-icon {
+    .icon {
       margin-bottom: 10px;
       width: 30%;
       height: 30%;
     }
-    &-text {
+    .text {
       font-size: 1.5vw;
     }
-    &-check {
+    .check {
       position: absolute;
       align-self: flex-end;
       display: flex;

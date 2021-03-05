@@ -15,12 +15,14 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #1f222c;
-  width: 40%;
-  height: calc((100vw * 40) / 100);
-  padding: 30px;
+  position: relative;
+  height: 0;
+  padding-top: 100%;
 
   .card {
     margin: 1%;
+    position: absolute;
+    left
     width: 46.127%;
     height: 46.127%;
     background-color: #474c5a;
@@ -30,7 +32,6 @@ body {
     justify-content: center;
     flex-direction: column;
     color: #85e6fa;
-    position: relative;
     &-icon {
       margin-bottom: 10px;
       width: 30%;
